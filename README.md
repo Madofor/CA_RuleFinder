@@ -5,7 +5,6 @@ Project Title: Cryptography System Based on the Use of Multidimensional Cellular
 Student and University: Yevhenii Suturin, Group 432, National University “Odesa Law Academy”, Faculty of Cybersecurity
 
 ## Project Overview
-
 The multidimensional cellular automata cryptography system is designed for generating pseudorandom bit sequences and using them for data encryption. The project implements automated search for suitable cellular automata rules and statistical analysis of generated bit streams. The NIST SP 800-22 test suite is used to evaluate the cryptographic properties of generated sequences.
 
 ## Main Functionality
@@ -20,7 +19,6 @@ The multidimensional cellular automata cryptography system is designed for gener
 - Environment: Windows / Linux.
 
 ## Deployment Instructions
-### Windows
 1. Requirements: Python 3.10+
 2. Clone the repository:
 ```bash
