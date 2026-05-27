@@ -33,5 +33,5 @@ pip install -r requirements.txt
 5. Specify the path to the NIST test directory in the application configuration.
 6. Run the application:
 ```bash
-python main.py
+python3 main.py
 ```
