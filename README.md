@@ -20,6 +20,7 @@ The multidimensional cellular automata cryptography system is designed for gener
 - Environment: Windows / Linux.
 
 ## Deployment Instructions
+### Windows
 1. Requirements: Python 3.10+ and installed NIST Statistical Test Suite.
 2. Clone the repository:
 
