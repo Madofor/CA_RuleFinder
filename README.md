@@ -69,7 +69,7 @@ The editor allows manual modification of transition results for every local conf
 
 The application performs statistical analysis using the NIST SP 800-22 Rev. 1a test suite. The generated pseudorandom sequences are evaluated according to entropy, frequency balance, Hamming distance, and additional randomness criteria.
 
-![NIST Results](screenshots/nist_rule_results.png)
+
 ---
 
 ### Comparison of Field Generation Approaches
