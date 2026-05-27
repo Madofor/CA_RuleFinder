@@ -48,6 +48,9 @@ python3 main.py
 ├── requirements.txt
 └── README.md
 ```
+### Rules
+The `rules/` directory contains saved cellular automata transition rules used for pseudorandom sequence generation and statistical analysis.
+
 ## Publication
 Boyko V. D., Suturin Y. V. Encryption Procedure Using Two-Dimensional Cellular Automata // Cybersecurity in the Modern World: Current Challenges: Proceedings of the VI International Scientific and Practical Conference, November 28, 2025. — Odesa: National University “Odesa Law Academy”, 2025. — pp. 90–93.
 [Read Publication](https://dspace.onua.edu.ua/handle/123456789/0000)
