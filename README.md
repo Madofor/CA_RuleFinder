@@ -21,26 +21,19 @@ The multidimensional cellular automata cryptography system is designed for gener
 
 ## Deployment Instructions
 ### Windows
-1. Requirements: Python 3.10+ and installed NIST Statistical Test Suite.
+1. Requirements: Python 3.10+
 2. Clone the repository:
-
 ```bash
 git clone https://github.com/username/project-name.git
 cd project-name
 ```
-
 3. Install required dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
-
 4. Install and configure the NIST SP 800-22 Statistical Test Suite.
-
 5. Specify the path to the NIST test directory in the application configuration.
-
 6. Run the application:
-
 ```bash
 python main.py
 ```
