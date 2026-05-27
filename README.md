@@ -39,17 +39,17 @@ python3 main.py
 ## Screenshots
 ### Main Application Window
 The main application window provides interaction with the multidimensional cellular automata system. The user can select rules, generate new fields, launch iterations, perform statistical analysis, and execute encryption or decryption operations.
-![Main Window](screenshots/main_window.png)
+[Main Window](screenshots/main_window.png)
 ---
 
 ### Rule Management System
 The rule management module allows users to create, edit, delete, and review cellular automata rules. Each rule contains information about active configurations and transition patterns used during field evolution.
-![Rules List](screenshots/rules_list.png)
+[Rules List](screenshots/rules_list.png)
 ---
 
 ### Cellular Automata Rule Visualization
 The system includes a graphical rule editor for all 256 neighborhood configurations. Each pattern defines the next state of the central cell based on neighboring values.
-![Rule Visualization](screenshots/rule_visualization.png)
+[Rule Visualization](screenshots/rule_visualization.png)
 ---
 
 ### Rule Editing Interface
