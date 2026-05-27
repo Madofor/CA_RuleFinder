@@ -40,6 +40,7 @@ python3 main.py
 ### Main Application Window
 
 The main application window provides interaction with the multidimensional cellular automata system. The user can select rules, generate new fields, launch iterations, perform statistical analysis, and execute encryption or decryption operations.
+
 ![Main Window](screenshots/main_window.png)
 ---
 
