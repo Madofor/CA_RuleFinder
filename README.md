@@ -1,7 +1,8 @@
 # CA_RuleFinder
 
-- Project Title: Cryptography System Based on the Use of Multidimensional Cellular Automata
-- Student and University: Yevhenii Suturin, Group 432, National University “Odesa Law Academy”, Faculty of Cybersecurity
+Project Title: Cryptography System Based on the Use of Multidimensional Cellular Automata
+
+Student and University: Yevhenii Suturin, Group 432, National University “Odesa Law Academy”, Faculty of Cybersecurity
 
 ## Project Overview
 
