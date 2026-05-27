@@ -13,10 +13,10 @@ XOR encryption and decryption of text messages.
 Automatic statistical analysis and NIST testing of generated bit sequences.
 
 ## Technology Stack
-Language: Python 3.10+.
-Libraries: tkinter, hashlib, json, random, statistics.
-Analysis Tools: NIST SP 800-22 Statistical Test Suite.
-Environment: Windows / Linux.
+- Language: Python 3.10+.
+- Libraries: tkinter, hashlib, json, random, statistics.
+- Analysis Tools: NIST SP 800-22 Statistical Test Suite.
+- Environment: Windows / Linux.
 
 ## Deployment Instructions
 Requirements: Python 3.10+ and installed NIST Statistical Test Suite.
