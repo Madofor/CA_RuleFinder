@@ -35,3 +35,15 @@ pip install -r requirements.txt
 ```bash
 python3 main.py
 ```
+
+## Project Structure
+```text
+├── src/                  # Main application source code
+├── screenshots/          # Screenshots used in README
+├── rules/                # Cellular automata rules
+├── cache/                # Cached search results
+├── config/               # Configuration files
+├── requirements.txt
+├── main.py
+└── README.md
+```
