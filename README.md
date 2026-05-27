@@ -20,6 +20,6 @@ The multidimensional cellular automata cryptography system is designed for gener
 - Environment: Windows / Linux.
 
 ## Deployment Instructions
-- Requirements: Python 3.10+ and installed NIST Statistical Test Suite.
-- Install dependencies: pip install -r requirements.txt.
-- Configuration: specify the path to the NIST test directory in the program configuration and run python main.py.
+1. Requirements: Python 3.10+ and installed NIST Statistical Test Suite.
+2. Install dependencies: pip install -r requirements.txt.
+3. Configuration: specify the path to the NIST test directory in the program configuration and run python main.py.
