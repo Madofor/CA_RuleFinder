@@ -38,12 +38,9 @@ python3 main.py
 
 ## Project Structure
 ```text
-├── src/                  # Main application source code
 ├── screenshots/          # Screenshots used in README
-├── rules/                # Cellular automata rules
-├── cache/                # Cached search results
-├── config/               # Configuration files
+├── rules/                # Saved cellular automata rules
 ├── requirements.txt
-├── main.py
+├── cellular_automata.py
 └── README.md
 ```
