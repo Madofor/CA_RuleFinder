@@ -36,6 +36,10 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+## Screenshots
+
+### Application Interface
+
 ## Project Structure
 ```text
 ├── src/                  # Source code
