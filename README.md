@@ -71,35 +71,22 @@ The application performs statistical analysis using the NIST SP 800-22 Rev. 1a t
 
 ![NIST Results](screenshots/nist_rule_result.png)
 
-Monobit Test is responsible for checking the overall ratio of zeros and ones in the entire bit sequence. If the number of zeros and ones differs significantly, it indicates that the sequence has a noticeable bias and is not sufficiently random.
+- Monobit Test is responsible for checking the overall ratio of zeros and ones in the entire bit sequence. If the number of zeros and ones differs significantly, it indicates that the sequence has a noticeable bias and is not sufficiently random.
 
-Frequency Within Block Test checks the balance of zeros and ones not across the entire sequence at once, but within separate blocks. This test helps identify situations where the overall balance appears normal, but individual sections of the sequence contain uneven bit distribution.
-
-Runs Test analyzes the number of consecutive runs of identical bits, meaning sequences of zeros or ones appearing continuously. If there are too many or too few runs, this may indicate excessive randomness or, conversely, structural regularity.
-
-Longest Run Ones In A Block Test determines the longest sequences of ones within individual blocks. It shows whether excessively long groups of ones appear in the sequence, which may indicate patterns or generator instability.
-
-Binary Matrix Rank Test evaluates linear dependencies between fragments of the bit sequence. For this purpose, the sequence is represented as binary matrices and their rank is analyzed. If the rank is frequently lower than expected, it may indicate the presence of linear dependencies.
-
-Discrete Fourier Transform Test, also known as the Spectral Test, checks for periodic structures within the sequence. It helps detect repeating patterns that may not be visible through simple balance analysis of zeros and ones.
-
-Non-overlapping Template Matching Test searches for predefined non-overlapping patterns within the sequence. The test evaluates whether specific bit combinations occur too frequently or too rarely.
-
-Overlapping Template Matching Test also checks for pattern occurrences, but allows overlaps between them. This makes the test more sensitive to repeating structures that may be hidden within the sequence.
-
-Universal Statistical Test evaluates the compressibility of the sequence. If the sequence can be compressed efficiently, it means that patterns exist within it, indicating insufficient randomness.
-
-Linear Complexity Test determines the complexity of the sequence from the perspective of a linear feedback shift register. The lower the linear complexity, the easier it is to predict the sequence, which is undesirable for cryptographic applications.
-
-Serial Test analyzes the frequency of occurrence of all possible bit combinations of a given length. Its purpose is to verify whether short bit patterns are distributed uniformly.
-
-Approximate Entropy Test evaluates the regularity and predictability of patterns within the sequence. If certain combinations appear more frequently than expected, the test may fail.
-
-Cumulative Sums Test checks the cumulative deviation of the sequence from the ideal balance. It interprets bits as upward or downward steps and determines how far the sequence deviates from zero balance.
-
-Random Excursions Test analyzes the behavior of a random walk generated from the bit sequence. It checks how often the cumulative sum returns to particular states.
-
-Random Excursions Variant Test is an extension of the previous test. It evaluates the number of visits to individual states in the random walk and allows deeper analysis of the sequence structure.
+- Frequency Within Block Test checks the balance of zeros and ones not across the entire sequence at once, but within separate blocks. This test helps identify situations where the overall balance appears normal, but individual sections of the sequence contain uneven bit distribution.
+- Runs Test analyzes the number of consecutive runs of identical bits, meaning sequences of zeros or ones appearing continuously. If there are too many or too few runs, this may indicate excessive randomness or, conversely, structural regularity.
+- Longest Run Ones In A Block Test determines the longest sequences of ones within individual blocks. It shows whether excessively long groups of ones appear in the sequence, which may indicate patterns or generator instability.
+- Binary Matrix Rank Test evaluates linear dependencies between fragments of the bit sequence. For this purpose, the sequence is represented as binary matrices and their rank is analyzed. If the rank is frequently lower than expected, it may indicate the presence of linear dependencies.
+- Discrete Fourier Transform Test, also known as the Spectral Test, checks for periodic structures within the sequence. It helps detect repeating patterns that may not be visible through simple balance analysis of zeros and ones.
+- Non-overlapping Template Matching Test searches for predefined non-overlapping patterns within the sequence. The test evaluates whether specific bit combinations occur too frequently or too rarely.
+- Overlapping Template Matching Test also checks for pattern occurrences, but allows overlaps between them. This makes the test more sensitive to repeating structures that may be hidden within the sequence.
+- Universal Statistical Test evaluates the compressibility of the sequence. If the sequence can be compressed efficiently, it means that patterns exist within it, indicating insufficient randomness.
+- Linear Complexity Test determines the complexity of the sequence from the perspective of a linear feedback shift register. The lower the linear complexity, the easier it is to predict the sequence, which is undesirable for cryptographic applications.
+- Serial Test analyzes the frequency of occurrence of all possible bit combinations of a given length. Its purpose is to verify whether short bit patterns are distributed uniformly.
+- Approximate Entropy Test evaluates the regularity and predictability of patterns within the sequence. If certain combinations appear more frequently than expected, the test may fail.
+- Cumulative Sums Test checks the cumulative deviation of the sequence from the ideal balance. It interprets bits as upward or downward steps and determines how far the sequence deviates from zero balance.
+- Random Excursions Test analyzes the behavior of a random walk generated from the bit sequence. It checks how often the cumulative sum returns to particular states.
+- Random Excursions Variant Test is an extension of the previous test. It evaluates the number of visits to individual states in the random walk and allows deeper analysis of the sequence structure.
 ---
 
 ### Comparison of Field Generation Approaches
